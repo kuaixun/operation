@@ -2,5 +2,5 @@
 
 * [前言](README.md)
 * [新推送](newpush.md)
-* 接口
+* [接口](interface.md)
 

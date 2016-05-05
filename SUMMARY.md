@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
-* [代码](code.md)
+* [开发](code.md)
    * [项目结构](code_structure.md)
    * [代码规范](code_rules.md)
 * [接口](interface.md)

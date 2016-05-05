@@ -7,5 +7,8 @@
 #### 接口服务端
 代码SVN地址```svn://192.168.10.154/c-platform/server/suferDeskTop```
 
+接口服务端是一个maven多模块项目，主要分为以下模块：
+
+
 
 #### 抓取

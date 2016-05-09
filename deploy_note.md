@@ -36,7 +36,7 @@
 * 查看FTP文件```ls```
 * 下载补丁包文件```get ***.zip```
 * 退出FTP连接```exit```
-* 执行上线脚本```sh /backup/auto.sh ***.zip```
+* 执行上线脚本```sh /backup/auto-back.sh ***.zip```
 
 #### 应用部署说明
 | 服务器 | 应用 | 说明 |

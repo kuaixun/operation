@@ -5,7 +5,7 @@
    * [项目结构](code_structure.md)
    * [代码规范](code_rules.md)
 * [运维](interface.md)
-   * 上线说明
+   * [上线说明](deploy_note.md)
    * [后台](back.md)
    * 接口
    * [新推送](newpush.md)

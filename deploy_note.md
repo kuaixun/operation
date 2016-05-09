@@ -2,7 +2,7 @@
 #### 应用部署说明
 | 服务器 | 应用 | 说明 |
 | -- | -- | -- |
-| 172.16.32.11 | 后台 | 目录/usr/local/program/cproduct_browser/ |
+| 172.16.32.11 | 后台 | tomcat目录/usr/local/program/cproduct_browser/tomcat/ |
 | 172.16.32.43 | 抓取 | |
 | 172.16.32.44 | 抓取 | |
 | 172.16.31.44 | 抓取 | |

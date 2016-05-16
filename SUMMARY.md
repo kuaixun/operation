@@ -7,7 +7,7 @@
 * [运维](interface.md)
    * [上线说明](deploy_note.md)
    * [后台](back.md)
-   * 接口
+   * [接口](interface_deploy.md)
    * [新推送](newpush.md)
        * [基础组件](newpush-base.md)
        * [客户端消息组件](push-center-access.md)

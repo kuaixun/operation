@@ -103,5 +103,5 @@
       </fileSets>
   </assembly> 
    ```
-1. 选择pom.xml，run as Maven build执行clean package -P product,成功后会在target目录下生成响应的补丁包；
+1. 选择pom.xml，run as Maven build执行clean package -P product,成功后会在target目录下生成相应的补丁包；
 2. 如果修改涉及common，应该先从线上下载最新的common包，然后用补丁包里面的文件覆盖更新，如果修改了配置文件，也要在线上最新配置的基础上修改；

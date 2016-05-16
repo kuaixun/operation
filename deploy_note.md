@@ -56,3 +56,52 @@
 | 172.16.32.58 | 新推送代理 | |
 
 #### Maven项目打包方法
+1. 查看svn历史记录Generate ChangeLog到文件；
+2. 执行TestPack.testPackAll()方法生成修改记录；
+1. POM中build元素下面添加assembly配置
+   ```
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.2.1</version>
+				<configuration>
+					<descriptors>
+						<descriptor>zip.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-zip</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+   ```
+1. 添加zip.xml文件，配置包名和需要打包的文件
+   ```
+   <assembly
+      xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+      <id>201605121350</id>
+      <formats>
+          <format>zip</format>
+      </formats>
+      <fileSets>
+          <fileSet>
+              <directory>${project.basedir}\target\suferDeskInteFace</directory>
+              <includes>
+                  <include>WEB-INF/classes/interfaceSetup.properties</include>
+                  <include>WEB-INF/classes/com/c_platform/suferdesk/ext/rss/CommonRssTask*.class</include>
+              </includes>
+              <outputDirectory>\</outputDirectory>
+          </fileSet>
+      </fileSets>
+  </assembly> 
+   ```
+1. 选择pom.xml，run as Maven build执行clean package -P product,成功后会在target目录下生成响应的补丁包；
+2. 如果修改涉及common，应该先从线上下载最新的common包，然后用补丁包里面的文件覆盖更新，如果修改了配置文件，也要在线上最新配置的基础上修改；

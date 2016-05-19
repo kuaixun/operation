@@ -42,18 +42,18 @@
 | 服务器 | 应用 | tomcat日志
 | -- | -- | -- |
 | 172.16.32.11 | 后台 | /usr/local/program/cproduct_browser/tomcat/logs
-| 172.16.32.43 | 抓取主 | 
-| 172.16.32.44 | 抓取从 |
-| 172.16.31.44 | 抓取从 |
-| 172.16.32.47 | 接口 |
-| 172.16.32.48 | 接口 |
-| 172.16.32.49 | 接口 |
-| 172.16.32.50 | 接口 |
-| 172.16.32.51 | 接口 |
-| 172.16.32.55 | 接口 |
-| 172.16.32.56 | 接口 |
-| 172.16.32.57 | 接口 |
-| 172.16.32.58 | 新推送代理 | |
+| 172.16.32.43 | 抓取主 | /usr/local/program/tomcat7forExt/logs
+| 172.16.32.44 | 抓取从 |/usr/local/program/tomcat7forExt/logs
+| 172.16.31.44 | 抓取从 |/usr/local/program/tomcat7forExt/logs
+| 172.16.32.47 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.48 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.49 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.50 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.51 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.55 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.56 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.57 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.32.58 | 新推送代理 | /usr/local/program/apache-tomcat-7.0.30/logs|
 
 #### Maven项目打包方法
 1. 查看svn历史记录Generate ChangeLog到文件；

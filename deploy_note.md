@@ -43,8 +43,8 @@
 | -- | -- | -- |
 | 172.16.32.11 | 后台 | /usr/local/program/cproduct_browser/tomcat/logs
 | 172.16.32.43 | 抓取主 | /usr/local/program/tomcat7forExt/logs
-| 172.16.32.44 | 抓取从 |/usr/local/program/tomcat7forExt/logs,/usr/local/program/quartzTomcat
-| 172.16.31.44 | 抓取从 |/usr/local/program/tomcat7forExt/logs
+| 172.16.32.44 | 抓取从 |/usr/local/program/tomcat7forExt/logs<br/>/usr/local/program/quartzTomcat/logs
+| 172.16.31.44 | 抓取从 |/usr/local/program/tomcat7forExt/logs<br/>/usr/local/program/tomcat7forWeather/logs
 | 172.16.32.47 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
 | 172.16.32.48 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
 | 172.16.32.49 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs

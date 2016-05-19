@@ -53,7 +53,13 @@
 | 172.16.32.55 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
 | 172.16.32.56 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
 | 172.16.32.57 | 接口 | /usr/local/program/apache-tomcat-7.0.30/logs
-| 172.16.32.58 | 新推送代理 | /usr/local/program/apache-tomcat-7.0.30/logs|
+| 172.16.32.58 | 新推送代理 | /usr/local/program/apache-tomcat-7.0.30/logs
+| 172.16.12.71 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
+| 172.16.12.72 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
+| 172.16.12.73 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
+| 172.16.12.74 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
+| 172.16.12.75 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
+| 172.16.12.76 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
 
 #### Maven项目打包方法
 1. 查看svn历史记录Generate ChangeLog到文件；

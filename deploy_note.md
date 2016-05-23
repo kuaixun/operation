@@ -60,6 +60,17 @@
 | 172.16.12.74 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
 | 172.16.12.75 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
 | 172.16.12.76 | 轮询推送 | /home/suferdesk/apache-tomcat-7.0.47/logs
+| 172.16.31.21 | 新推送 |/data/logs/push/access/
+| 172.16.31.22 | 新推送 |/data/logs/push/access/
+| 172.16.31.23 | 新推送 |/data/logs/push/access/
+| 172.16.31.24 | 新推送 |/data/logs/push/access/
+| 172.16.31.25 | 新推送 |/data/logs/push/access/
+| 172.16.31.26 | 新推送 |/data/logs/push/access/
+| 172.16.31.34 | 新推送 |/data/logs/push/api/
+| 172.16.31.35 | 新推送 |/data/logs/push/api/
+| 172.16.31.36 | 新推送 |/data/logs/push/api/
+| 172.16.12.101 | 新推送 |/data/logs/push/access/<br/>/data/logs/push/api/
+| 172.16.12.102 | 新推送 |/data/logs/push/access/<br/>/data/logs/push/api/
 
 #### Maven项目打包方法
 1. 查看svn历史记录Generate ChangeLog到文件；

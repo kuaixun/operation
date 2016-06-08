@@ -18,6 +18,15 @@
 * 启动tomcat，如```../bin/startup.sh```
 * 查看进程和日志确保正常后通知测试人员
 
+#### MongoDB查询步骤
+1. 通过自助上线平台连接mongodb主master，如32.55
+2. 切换到mongodb所在目录：```cd /usr/local/program/mongodb-linux-x86_64-2.2.3/bin```
+3. 连接mongodb：```./mongo```
+4. 使用admin集合：```use admin```
+5. 授权：```db.auth('用户名','密码')```
+6. 使用surf集合：```use surf```
+7. 执行查询：```db.desknews.find()```
+
 #### 自动上线脚本
 为了提高上线效率并减低出错几率，针对各应用均提供了相应的自动上线脚本，所有脚本均位于/backup共享目录下，对应关系如下：
 

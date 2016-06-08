@@ -19,7 +19,7 @@
 * 查看进程和日志确保正常后通知测试人员
 
 #### MongoDB查询步骤
-1. 通过自助上线平台连接mongodb主master，如32.55
+1. 通过自助上线平台连接mongodb主master，当前是32.55
 2. 切换到mongodb所在目录：```cd /usr/local/program/mongodb-linux-x86_64-2.2.3/bin```
 3. 连接mongodb：```./mongo```
 4. 使用admin集合：```use admin```
